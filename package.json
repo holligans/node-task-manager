@@ -1,0 +1,28 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holligans/node-task-manager.git"
+  },
+  "author": "Alex V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holligans/node-task-manager/issues"
+  },
+  "homepage": "https://github.com/holligans/node-task-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
