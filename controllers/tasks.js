@@ -2,7 +2,7 @@ const getAllTasks = (req, res) => {
     res.status(200).send("All Tasks");
 }
 const createTask = (req, res) => {
-    res.status(200).send("Create Tasks");
+    res.status(200).send(req.body);
 }
 const getTask = (req, res) => {
     res.status(200).send("Get Task");
