@@ -1,0 +1,5 @@
+[
+  { "completed": true, "_id": 0, "name": "Wash dishes" },
+  { "completed": false, "_id": 1, "name": "Do homework" },
+  { "completed": true, "_id": 2, "name": "Clean floor" }
+]
